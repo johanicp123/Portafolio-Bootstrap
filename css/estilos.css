@@ -94,7 +94,7 @@ header .menu .c3:hover{
 }
 
 .acerca-de .info .titulo{
-    color: #005385;
+    color: #3da5e2;
     font-family: 'Open Sans',sans-serif;
     font-weight: 300;
     font-size: 40px;
@@ -123,6 +123,52 @@ header .menu .c3:hover{
     background: #3da5e2;
     line-height: 25px;
     padding-left: 20px; 
+}
+
+
+/*contacto*/
+
+.contacto{
+    border-top: 1px solid #cbcbcb;
+    border-bottom: 1px solid #cbcbcb;
+}
+
+.contacto .titulo{
+    color: #3da5e2;
+    font-family: 'Open Sans',sans-serif;
+    font-weight: 300;
+    font-size: 40px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.contacto .formulario input[type="text"],
+.contacto .formulario input[type="email"],
+.contacto .formulario textarea{
+    padding: 15px;
+    border: none;
+    font-family: 'Open Sans',sans-serif;
+}
+
+.contacto .formulario textarea{
+    height: 150px;
+    min-height: 150px;
+    max-height: 250px;
+}
+
+.contacto .formulario .boton{
+    background: #3da5e2;
+    border: none;
+    padding: 7px 30px;
+    color: white;
+    font-family: 'Open Sans',sans-serif;
+    cursor: pointer;
+    width: auto;
+    border-radius: 3px;
+}
+
+.contacto .formulario .boton:hover{
+    background: #1ba0ef;
 }
 
 @media screen and(max-width: 576px){
