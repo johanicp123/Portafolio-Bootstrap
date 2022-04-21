@@ -106,13 +106,6 @@ header .menu .c3:hover{
         width: 100%;
     }
 
-    .portafolio .galeria .contenedor-imagen:nth-child(1) {order: 1;}
-	.portafolio .galeria .contenedor-imagen:nth-child(2) {order: 3;}
-	.portafolio .galeria .contenedor-imagen:nth-child(3) {order: 6;}
-	.portafolio .galeria .contenedor-imagen:nth-child(4) {order: 2;}
-	.portafolio .galeria .contenedor-imagen:nth-child(5) {order: 5;}
-	.portafolio .galeria .contenedor-imagen:nth-child(6) {order: 4;}
-	.portafolio .galeria .contenedor-imagen:nth-child(7) {order: 7;}
 }
     
 @media screen and(max-width: 1200px){
